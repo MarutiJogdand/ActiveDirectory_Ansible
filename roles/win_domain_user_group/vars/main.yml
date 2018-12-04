@@ -1,0 +1,8 @@
+---
+# vars file for win_domain_user_group
+
+user_info:
+  - { name: 'jack', firstname: 'jack', surname: 'jill', password: 'redhat@123', group_name: 'dev', group_scope: 'domainlocal'}
+  - { name: 'john', firstname: 'john', surname: 'smith', password: 'redhat@123', group_name: 'dev', group_scope: 'domainlocal'}
+  - { name: 'mini', firstname: 'mini', surname: 'Mouse', password: 'redhat@123', group_name: 'qa', group_scope: 'domainlocal'}
+  - { name: 'ronald', firstname: 'ronald', surname: 'chuck', password: 'redhat@123', group_name: 'qa', group_scope: 'domainlocal'}
